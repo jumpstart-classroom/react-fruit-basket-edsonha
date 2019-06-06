@@ -3,7 +3,7 @@ const FruitBasket = ({ fruitBasket }) => {
     <div className="container">
       {fruitBasket.map(fruit => {
         return (
-          <FruitCard key={fruit.type} name={fruit.type} emoji={fruit.emoji} />
+          <FruitCard key={fruit.id} name={fruit.type} emoji={fruit.emoji} />
         );
       })}
     </div>
